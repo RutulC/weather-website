@@ -1,41 +1,65 @@
 body{
-    color: #333333;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
-    display: flex;      
-    /* Accessing the flex box; */
+    display: flex;
+    align-content:center;
+    align-items:center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 90vh;
+    background-color: #080f0f;
+    font-synthesis: inherit;
+    text-align: center;
+    color:aliceblue;
+    border:15px groove rgb(61, 195, 168);
+    letter-spacing: .1rem;
+background: linear-gradient(172deg, rgba(0,0,0,1) 19%, rgba(3,45,20,1) 72%, rgba(6,102,46,1) 89%);
+  color:rgb(138, 246, 138);
+  font-weight: semibold;
 }
 
 .main-content{
     flex-grow: 1;
+    
 }
 
 footer{
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    color: #47fc00;
+    border-top: 2px solid #e78787;
     margin-top: 16px;
-    padding: 16px 0;
+    font-size:19px;
+    padding:2px 0;
+    margin-bottom:5px;
 }
 
 header{
-    margin-top: 16px;
+    margin-top: 12px;
     margin-bottom: 48px;
 }
 
 h1{
     font-size: 64px;
     margin-bottom: 16px;
+    color:#f3bfbf;
+    background-color:#010000;
+    padding:12px 10px;
+    
+    
+}
+header a:hover{
+  background-color:rgb(19, 226, 168);
 }
 
 header a {
-    color: #888888;
+   color: #000000;
     margin-right: 16px;
     text-decoration: none;
+    border: 1px solid blue;
+    padding: 9px 12px;
+    background-color: rgb(255 248 232);
+    border-radius: 15px;
+    margin-right: 35px;
 }
 
 .portrait {
@@ -45,6 +69,12 @@ header a {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+    font-size: larger;
+ padding: .75rem 1.25rem;
+    border-radius:10rem;
+  font-size: 1rem;
+letter-spacing: .1rem;
+    
 }
 
 button{
@@ -52,5 +82,19 @@ button{
     border: 1px solid #888888;
     background: #888888;
     color: white;
-    padding: 8px;
+    padding: 8px;  
+   display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  margin-top: .5rem;
+}
+
+button:hover{
+box-shadow:2px 1px 1px 2px  rgb(255, 255, 255);
+   background-color:#ee79a4;
+
 }
